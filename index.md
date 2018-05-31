@@ -1,6 +1,20 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+
+# Alexander Clarke
+
+Backend programmer, video game tinkerer, trying to make things better while making things better.
+<br>
+Also a Committee member for [Compsoc](https://computingsociety.co.uk/#/) and co-organiser of [Royal Hackaway](http://royalhackaway.com/)
+
+Fuelled by instant noodles and coffee.
+
+<br>
+<br>
+## Who I'm working for
+
+## My Projects:
+
+## What I'm volunteering with
