@@ -11,10 +11,11 @@ Also a Committee member for [Compsoc](https://computingsociety.co.uk/#/) and co-
 
 Fuelled by instant noodles and coffee.
 
-<br>
-<br>
 ## Who I'm working for
 
 ## My Projects:
 
 ## What I'm volunteering with
+
+<br>
+<br>
