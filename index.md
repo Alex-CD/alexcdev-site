@@ -12,10 +12,9 @@ Also a Committee member for [Compsoc](https://computingsociety.co.uk/#/) and co-
 Fuelled by instant noodles and coffee.
 
 ## Who I'm working for
-
+<br>
+{%- include projects-list.html -%}
+<br>
 ## My Projects:
 
 ## What I'm volunteering with
-
-<br>
-<br>

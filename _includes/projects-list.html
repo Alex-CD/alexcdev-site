@@ -1,0 +1,13 @@
+{% for project in site.projects %}
+<div class="boxy-list-container">
+    <div> class="boxy-entry">
+        <h2>{{ project.name }}</h2>
+        <p>
+            {{ project.content }}
+        </p>
+
+        <a href="{{ project.source }}"> Source </a>
+        <a href="{{ project.link }}"> Check it out </a>
+    </div>
+</div>
+{% endfor%}
