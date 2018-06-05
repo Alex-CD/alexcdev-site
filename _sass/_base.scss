@@ -1,0 +1,42 @@
+
+
+
+$background-colour: #1E2127;
+$lighter-colour:  lighten($background-colour, 5%);
+
+$text-colour: #ABB2BF;
+$header-colour: lighten($background-colour, 5%);
+$navbar-text-colour: lighten($header-colour, 10%);
+$text-link-colour: #ABB2BF;
+
+
+body {
+  background-color: $background-colour;
+  color: $text-colour;
+}
+
+.jumbotron {
+  background-color: $header-colour;
+}
+
+
+.svg-icon {
+  width: 22px;
+  height: 16px;
+  display: block;
+  fill: grey;
+  padding-right: 5px;
+  vertical-align: text-top;
+}
+
+.social-list-entry {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.footer {
+  width: 100%;
+  background-color: $navbar-text-colour;
+}
+
