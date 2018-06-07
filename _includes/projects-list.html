@@ -1,13 +1,18 @@
-{% for project in site.projects %}
-<div class="boxy-list-container">
-    <div> class="boxy-entry">
-        <h2>{{ project.name }}</h2>
-        <p>
-            {{ project.content }}
-        </p>
 
-        <a href="{{ project.source }}"> Source </a>
-        <a href="{{ project.link }}"> Check it out </a>
+
+<div class="container cards-container">
+    {% for project in site.projects %}
+    <div class="card">
+        <div class="card-body border-dark" >
+            <div class="card-title"> <h3>{{ project.name }}</h3> </div>
+            <div class="card-text">
+                {{ project.content }}
+            </div>
+            <br>
+
+            <a href="{{ project.link }}" class="card-link"> Try it </a>
+            <a href="{{ project.source }}" class="card-link"> Source </a>
+        </div>
     </div>
+    {% endfor%}
 </div>
-{% endfor%}

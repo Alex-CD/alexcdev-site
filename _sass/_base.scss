@@ -15,10 +15,39 @@ body {
   color: $text-colour;
 }
 
+.jumbotron .h1 {
+  font-size: small;
+}
+
+.card {
+  background-color: $lighter-colour;
+  margin: 10px;
+  max-width: 30%;
+  min-height: 100%;
+  display: inline-flex;
+  height: 100%
+}
+
 .jumbotron {
+  margin-top: 3%;
   background-color: $header-colour;
 }
 
+.cards-container {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  background-color: pink;
+}
+
+.card-link {
+  color: $text-link-colour;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card-text {
+  text-wrap: normal;
+}
 
 .svg-icon {
   width: 22px;
@@ -40,3 +69,6 @@ body {
   background-color: $navbar-text-colour;
 }
 
+.social-list-container {
+
+}

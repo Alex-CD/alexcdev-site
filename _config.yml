@@ -13,10 +13,8 @@ github_username:  Alex-CD
 # Build settings
 markdown: kramdown
 
-Collections:
+collections:
   - projects
-  - volunteering
-  - jobs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
