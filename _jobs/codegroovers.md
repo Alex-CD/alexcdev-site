@@ -1,7 +1,7 @@
 ---
 name: "Programmer @ Codegroovers"
 colour: #EB641E
-image: https://computingsociety.co.uk/static/img/csinverted.291e68e.png
+link: https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/computer-science/
 ---
 
 Codegroovers is RHUL's in-house programming team.

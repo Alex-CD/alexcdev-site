@@ -28,5 +28,7 @@ layout: home
 
 {%- include projects-list.html -%}
 
-### What I'm volunteering with
+### What I'm volunteering with:
+
+{%- include volunteering-list.html -%}
 

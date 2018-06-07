@@ -1,6 +1,6 @@
 
 
-<div class="container cards-container row">
+<div class="cards-container row justify-content-center">
     {% for project in site.projects %}
     <div class="card border-dark">
         <div class="card-body border-dark " >
@@ -10,8 +10,8 @@
             </div>
             <br>
             <div class="card-links-wrapper">
-                <a href="{{ project.link }}" class="card-link"> Try it </a>
-                <a href="{{ project.source }}" class="card-link"> Source </a>
+                <a href="{{ project.link }}" class="card-link">Try it</a>
+                <a href="{{ project.source }}" class="card-link">Source</a>
             </div>
         </div>
     </div>

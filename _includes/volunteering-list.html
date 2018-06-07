@@ -1,0 +1,18 @@
+
+
+<div class="cards-container row justify-content-center">
+    {% for gig in site.volunteering %}
+    <div class="card border-dark">
+        <div class="card-body border-dark " >
+            <div class="card-title"> <h3>{{ gig.name }}</h3> </div>
+            <div class="card-text">
+                {{ gig.content }}
+            </div>
+            <br>
+            <div class="card-links-wrapper">
+                <a href="{{ gig.link }}" class="card-link">About</a>
+            </div>
+        </div>
+    </div>
+    {% endfor%}
+</div>
