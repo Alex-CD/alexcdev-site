@@ -1,5 +1,5 @@
 ---
-name: "Hackathon Countdown Clock"
+name: "Hackathon Clock"
 colour: #FFFFFF
 link: https://github.com/Alex-CD/VegaCountdown
 source: https://github.com/Alex-CD/VegaCountdown

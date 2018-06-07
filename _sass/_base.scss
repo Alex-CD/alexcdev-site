@@ -23,9 +23,12 @@ body {
   background-color: $lighter-colour;
   margin: 10px;
   max-width: 30%;
-  min-height: 100%;
   display: inline-flex;
-  height: 100%
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+
 }
 
 .jumbotron {
@@ -36,13 +39,23 @@ body {
 .cards-container {
   margin-top: 2%;
   margin-bottom: 5%;
-  background-color: pink;
 }
 
 .card-link {
   color: $text-link-colour;
   text-decoration: underline;
   font-weight: bold;
+
+}
+
+.card-links-wrapper{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-left: -6%;
+  margin-bottom: 5%;
+  text-align: center;
+
 }
 
 .card-text {
