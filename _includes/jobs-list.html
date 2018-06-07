@@ -1,0 +1,18 @@
+
+
+<div class="container cards-container row">
+    {% for job in site.jobs %}
+    <div class="card border-dark">
+        <div class="card-body border-dark " >
+            <div class="card-title"> <h3>{{ job.name }}</h3> </div>
+            <div class="card-text">
+                {{ job.content }}
+            </div>
+            <br>
+            <div class="card-links-wrapper">
+                <a href="{{ job.link }}" class="card-link"> Try it </a>
+            </div>
+        </div>
+    </div>
+    {% endfor%}
+</div>

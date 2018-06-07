@@ -20,6 +20,8 @@ layout: home
 
 ### Who I'm working for
 
+{%- include jobs-list.html -%}
+
 
 ### My Projects:
 
