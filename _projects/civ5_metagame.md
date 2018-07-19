@@ -1,8 +1,8 @@
 ---
 name: "Civ 5 Metagame"
 colour: #FFFFFF
-link: https://github.com/Alex-CD/Civ5Randomiser
-source: https://github.com/Alex-CD/Civ5Randomiser
+link: https://github.com/Alex-CD/Civ5-Extended
+source: https://github.com/Alex-CD/Civ5-Extended
 image: http://vignette2.wikia.nocookie.net/civilization/images/b/b2/Civilization_V_logo.png
 ---
 

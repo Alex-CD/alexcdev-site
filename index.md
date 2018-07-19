@@ -13,7 +13,8 @@ layout: home
       Fuelled by instant noodles and coffee!
   </p>
   
-  <div> </div>
+  <a href="mailto:Alexander_M_Clarke@live.co.uk" target="_blank" class="btn btn-primary">Hire Me</a>
+ 
 </div>
 
 
@@ -23,12 +24,14 @@ layout: home
 {%- include jobs-list.html -%}
 
 
+### How I'm volunteering:
+
+{%- include volunteering-list.html -%}
+
+
 ### My Projects:
 
 
 {%- include projects-list.html -%}
 
-### What I'm volunteering with:
-
-{%- include volunteering-list.html -%}
 
