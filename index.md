@@ -12,11 +12,17 @@ layout: home
       Committee member for <a href="https://computingsociety.co.uk/#/">Compsoc</a> and co-organiser of <a href="http://royalhackaway.com/">Royal Hackaway</a><br>
       Fuelled by instant noodles and coffee!
   </p>
-  
+
   <a href="mailto:Alexander_M_Clarke@live.co.uk" target="_blank" class="btn btn-primary">Hire Me</a>
- 
+
 </div>
 
+
+
+### What I'm currently working on
+
+
+{%- include projects-list.html -%}
 
 
 ### Who I'm working for
@@ -27,11 +33,3 @@ layout: home
 ### How I'm volunteering:
 
 {%- include volunteering-list.html -%}
-
-
-### My Projects:
-
-
-{%- include projects-list.html -%}
-
-
