@@ -1,5 +1,5 @@
 ---
-name: co-organiser for Royal Hackaway
+name: Co-organiser for Royal Hackaway
 colour: #EC6608
 link: http://royalhackaway.com/
 image: http://royalhackaway.com/assets/images/rh.svg

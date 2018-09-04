@@ -2,6 +2,7 @@
 name: "RoyalHackaway.com"
 colour: #FFFFFF
 source: https://github.com/royalhackaway/royalhackaway.github.io
+site: RoyalHackaway.com
 image: http://vignette2.wikia.nocookie.net/civilization/images/b/b2/Civilization_V_logo.png
 ---
 
