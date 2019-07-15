@@ -28,6 +28,10 @@ _site/
 .idea/**/gradle.xml
 .idea/**/libraries
 
+# ruby
+.bundle/
+vendor/
+
 # CMake
 cmake-build-debug/
 
@@ -70,6 +74,8 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
+
+
 
 
 # End of https://www.gitignore.io/api/jekyll,webstorm
