@@ -7,8 +7,25 @@ email: Alexander_M_Clarke@live.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: AlexCDev
-github_username:  Alex-CD
+
+socials:
+  -
+    name: Github
+    link: https://github.com/Alex-CD
+    icon: github.svg
+  -
+    name: Twitter
+    link: https://twitter.com/AlexCDev
+    icon: twitter.svg
+  -
+    name: linkedin
+    link: www.linkedin.com/in/alexcdev/
+    icon: linkedin.svg
+  -
+    name: email
+    link: alexander_m_clarke@live.co.uk
+    icon: protonmail.svg
+
 
 # Build settings
 markdown: kramdown
@@ -17,6 +34,10 @@ collections:
   - projects
   - jobs
   - volunteering
+
+sass:
+style: compressed
+sass_dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

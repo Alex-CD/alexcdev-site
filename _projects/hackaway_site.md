@@ -1,9 +1,6 @@
 ---
 name: "RoyalHackaway.com"
-colour: #FFFFFF
-source: https://github.com/royalhackaway/royalhackaway.github.io
-site: RoyalHackaway.com
-image: http://vignette2.wikia.nocookie.net/civilization/images/b/b2/Civilization_V_logo.png
+link: royalhackaway.com
+description: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
 ---
-
-I'm currently helping spruce up Royal Hackaway's site for 2019.
+Attend a pretty cool hackathon.
