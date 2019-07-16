@@ -1,12 +1,16 @@
 
-
-<div class="cards-container row justify-content-center">
-    {% for gig in site.volunteering %}
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h3>{{ gig.name }}</h3>
-            <h6 class="card-subtitle mb-2 text-muted"><i>{{ gig.period }}</i></h6>
+<div class="volunteering-wrapper">
+    <h3 class="">What I've been involved with</h3>
+  <div class="cards-container row justify-content-center">
+      {% for gig in site.volunteering %}
+          <div class="card" style="width: 18rem;">
+            <div class="card-body flex-column">
+              <h4>{{ gig.name }}</h4>
+              <span class="align-bottom">
+              <h6 class="card-subtitle text-muted"><i>{{ gig.period }}</i></h6>
+              </span>
+            </div>
           </div>
-        </div>
-    {% endfor%}
+      {% endfor%}
+  </div>
 </div>

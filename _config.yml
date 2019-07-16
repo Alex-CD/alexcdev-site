@@ -19,11 +19,11 @@ socials:
     icon: twitter.svg
   -
     name: linkedin
-    link: www.linkedin.com/in/alexcdev/
+    link: https://www.linkedin.com/in/alexcdev/
     icon: linkedin.svg
   -
     name: email
-    link: alexander_m_clarke@live.co.uk
+    link: mailto:alexander_m_clarke@live.co.uk
     icon: protonmail.svg
 
 

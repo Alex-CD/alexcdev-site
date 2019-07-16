@@ -1,5 +1,5 @@
 ---
-name: RHUL Computing Society Committee member
+name: RHUL Computing Society Committee
 period: 'Sep 2017 - Jun 2019'
 link: https://computingsociety.co.uk/
 ---
