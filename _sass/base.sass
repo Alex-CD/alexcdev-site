@@ -1,33 +1,69 @@
 
-.header-wrapper
+html
+  min-height: 100vh
+  min-width: 100vw
+
+body
   margin: 0
-
-
-.projects-wrapper
-  margin-top: 2em
-
-.volunteering-wrapper
-  margin-top: 2em
-
-
-.card
-  margin: 0.5em
-
-.social-list-entry
   padding: 0
-  min-height: 10em
-  min-width: 10em
+  color: #BBBBBB
+  font-family: sans-serif
 
-.card-subtitle
-  margin-top: 2em
+a:link, a:visited, a:hover
+  color: #a5a5a5
+  outline: none
+  font-weight: bold
 
-.social-list-container
-  margin-left: auto
-  margin-right: auto
-  padding-top: 2em
+a:active
+  color: #636363
+  outline: none
 
-.project-card-text
-  margin-top: auto
-svg
-    display: block
-    margin: auto
+.base 
+  min-height: 100vh
+  min-width: 100vw
+  background-color: #232323
+
+.splash-console
+  padding-left: 30%
+  padding-right: 25%
+  @media screen and (max-width: 750px)
+    padding-left: 5%
+    padding-right: 5%
+  padding-top: 5vh
+  
+.console-item
+  padding-bottom: 4vh
+
+.console-command
+  padding-bottom: 1vh
+
+.console-output
+  padding-left: 1vh
+
+span.console-name
+  color: #002699
+  font-weight: bold
+
+.project
+  margin-bottom: 2vh
+
+.project-headline > p
+  margin-top: 0
+  margin-bottom: 0
+  display: inline
+
+.project > a
+  display: inline
+
+
+.social-wrapper
+  display: inline
+  margin-right: 1vw
+  
+.volunteering-item
+  margin-bottom: 3vh
+
+.volunteering-item > *
+  margin-top: 0.1vh
+  margin-bottom: 0.1vh
+

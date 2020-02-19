@@ -2,14 +2,8 @@
 
 <div class="social-list-container row justify-content-center">
   {% for social in site.socials %}
-    <div height="100" width="100" class="social-list-entry col-lg-1 col-md-6 col-6">
-
-      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <a href="{{ social.link}}">
-      <image xlink:href="assets/icons/{{ social.icon}}" height="100" width="100"/>
-      </a>
-
-      </svg>
+    <div class="social-wrapper">
+      <a href="{{social.link }}">{{ social.name }}</a>
 
     </div>
   {% endfor %}

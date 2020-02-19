@@ -12,19 +12,15 @@ socials:
   -
     name: Github
     link: https://github.com/Alex-CD
-    icon: github.svg
   -
     name: Twitter
     link: https://twitter.com/AlexCDev
-    icon: twitter.svg
   -
-    name: linkedin
+    name: LinkedIn
     link: https://www.linkedin.com/in/alexcdev/
-    icon: linkedin.svg
   -
-    name: email
+    name: Email
     link: mailto:alexander_m_clarke@live.co.uk
-    icon: protonmail.svg
 
 
 # Build settings

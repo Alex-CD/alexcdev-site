@@ -1,5 +1,5 @@
 ---
 name: "Hackathon website template"
-link: https://github.com/Alex-CD/civ5-extended
+link: https://github.com/Alex-CD/hackathon-template-jekyll
 ---
 A base for hackathon sites.

@@ -1,16 +1,10 @@
 
 <div class="projects-wrapper">
-    <h3 class="">Some projects</h3>
-
-  <div class="cards-container row justify-content-center">
-      {% for project in site.projects %}
-          <div class="card project-card" style="width: 18rem;">
-            <div class="card-body">
-              <h4 class="card-title">{{ project.name }}</h4>
-              <p class="project-card-text card-text"></p>
-                {{ project.content }}
-              </div>
-          </div>
-      {% endfor%}
-  </div>
+  {% for project in site.projects %}
+    <div class="project">
+        <div class="project-headline">{{ project.name }}: {{ project.content }}</div>
+        <a href="{{ project.link }}">[Link]</a>
+    </div>
+  {% endfor%}
 </div>
+  
