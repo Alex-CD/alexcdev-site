@@ -2,8 +2,7 @@
 <div class="projects-wrapper">
   {% for project in site.projects %}
     <div class="project">
-        <div class="project-headline">{{ project.name }}: {{ project.content }}</div>
-        <a href="{{ project.link }}">[Link]</a>
+      <div class="project-headline"><a href="{{ project.link }}">{{ project.name }}:</a> {{ project.content }}</div>
     </div>
   {% endfor%}
 </div>

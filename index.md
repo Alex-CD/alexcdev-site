@@ -9,7 +9,7 @@ layout: home
 
     <div class="console-item">
       <div class="console-command">
-        <span class="console-name">site</span>:~$ cat description.txt
+        <span class="console-name">site</span>:~$ cat description.md
       </div>
       <div class="console-output">
         Junior programmer, working towards being full-stack.
@@ -21,7 +21,7 @@ layout: home
 
     <div class="console-item">
       <div class="console-command">
-        <span class="console-name">site</span>:~$ cat social-media.txt
+        <span class="console-name">site</span>:~$ cat social-media.md
       </div>
       <div class="console-output">
          {%- include social.html -%}
@@ -30,7 +30,7 @@ layout: home
 
     <div class="console-item">
       <div class="console-command">
-        <span class="console-name">site</span>:~$ cat projects.txt
+        <span class="console-name">site</span>:~$ cat projects.md
       </div>
       <div class="console-output">
         {% include projects-list.html %}
@@ -39,7 +39,7 @@ layout: home
 
     <div class="console-item">
       <div class="console-command">
-        <span class="console-name">site</span>:~$ cat volunteering.txt
+        <span class="console-name">site</span>:~$ cat volunteering.md
       </div>
       <div class="console-output">
         {% include volunteering-list.html %}
