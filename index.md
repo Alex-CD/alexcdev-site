@@ -13,7 +13,7 @@ layout: home
       </div>
       <div class="console-output">
         Junior programmer, working towards being full-stack.
-        Coffee fiend.
+        Coffee fiend. I'm looking for work! Get in touch!
         <br>
         Thanks for popping by! :v)
       </div>
